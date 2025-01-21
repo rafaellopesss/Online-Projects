@@ -63,8 +63,31 @@ nav {
 }
 
 div#menu-hamburguer >  ul {
-    display: none;
+    position: fixed;
+    color: white;
+    top: 100px;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+    list-style-type: none;
+    background-color: var(--color1);
+
+    padding: 20px;
     
+}
+
+div#menu-hamburguer >  ul  >li {
+    padding: 5px;
+    margin: 10px 0px;
+    font-size: 1.5em;
+    border: solid 1px white;
+    width: 80vw;
+    cursor: pointer;
+}
+
+div#menu-hamburguer >  ul > li:hover {
+    background-color: white;
+    color: var(--color1);
 }
 
 
