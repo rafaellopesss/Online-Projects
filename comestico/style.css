@@ -71,6 +71,7 @@ div#menu-hamburguer >  ul {
     width: 100%;
     list-style-type: none;
     background-color: var(--color1);
+    display: none;
 
     padding: 20px;
     
