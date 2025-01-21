@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
+    
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -33,6 +34,9 @@ nav {
   
     display: flex;
     align-items: center;
+
+    position: fixed;
+    width: 100%;
     
 }
 
@@ -81,8 +85,45 @@ div#menu-hamburguer >  ul {
 }
 
 /*Main*/
+/*Compre agora*/
+#tempo {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 300px;
+    
+}
 
+#tempo > h1 {
+    text-align: center;
+    color: var(--color1);
+    margin-bottom: 10px;
+}
 
+#tempo  >img {
+    border-radius: 5px 5px  0px 0px;
+    box-shadow: 2px 2px 19px 4px rgba(0, 0, 0, 0.171);
+}
+
+#tempo > input {
+    margin-top: 10px;
+    background-color: var(--color1);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+#tempo > input:hover {
+    background-color: white;
+    color: var(--color1);
+    border: solid 1px black;
+    
+
+    transition-duration: 1s;
+}
 
 /*Descrição*/
 section#descricao {
@@ -218,4 +259,41 @@ div#imagemtext > p {
 .informacoes > p {
     text-align: justify;
     text-indent: 20px;
+}
+
+/*Comprar agora*/
+
+
+
+
+
+/*Footer*/
+
+
+footer {
+    background-color: var(--color3);
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    height: 200px;
+}
+
+footer > ul {
+    list-style-type: none;
+}
+
+footer > ul > li {
+    display: flex;
+    
+
+
+    margin: 10px 0;
+
+}
+
+
+
+footer > ul > li > p{
+    font-size: 1.3em;
+    margin-left: 10px;
 }
