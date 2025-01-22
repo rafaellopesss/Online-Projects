@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PureVitta</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 
-    <link rel="stylesheet" media="screen" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+
+    <link rel="stylesheet" media="screen" href="css/style.css">
+
+    
+
 </head>
 <body>
     <nav>
@@ -16,10 +21,12 @@
         </div>
 
         <div id="menu-hamburguer">
-            <span class="material-symbols-outlined" id="menu">
+            <span class="material-symbols-outlined" id="menu" onclick="show()">
                 menu
             </span>
-            <ul>
+            
+            
+            <ul id="menu-icone">
                 <li>Descrição</li>
                 <li>Quem somos?</li>
                 <li>Outros produtos</li>
@@ -53,13 +60,14 @@
         </section>
 
         <section id="demostrar">            
-            <div id="imagem">
-                <img src="imagens/rosto2.webp" alt="Mulher usando o Pureviita">
-            </div>    
-
-            <div id="imagemtext">
-                <h1>Sinta a pureza na sua pele!</h1>
-                <p>Cuidado completo para sua pele, com hidratação profunda, redução de sinais de envelhecimento e luminosidade natural. Sua fórmula leve, rica em vitaminas, é adequada para todos os tipos de pele.</p>
+            <div id="container-demostrar">
+                <div id="imagem">
+                    <img src="imagens/mulher-descricao.jpg" alt="Mulher usando o Pureviita">
+                </div>
+                <div id="imagemtext">
+                    <h1>Sinta a pureza na sua pele!</h1>
+                    <p>Cuidado completo para sua pele, com hidratação profunda, redução de sinais de envelhecimento e luminosidade natural. Sua fórmula leve, rica em vitaminas, é adequada para todos os tipos de pele.</p>
+                </div>
             </div>
         </section>
 
@@ -114,11 +122,14 @@
                 <p>Instagram</p>
             </li>
             <li>
+                
                 <img src="ícones/youtube.png" alt="Youtube">
                 <p>Youtube</p>
+                
             </li>
         </ul>
     </footer>
 
+    <script src="javascript/javascript.js" defer></script>
 </body>
 </html>
