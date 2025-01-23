@@ -1,0 +1,57 @@
+/*Algumas medias Queries
+    320px — 480px: dispositivos móveis
+    481px — 768px: iPads, tablets
+    769px — 1024px: telas pequenas, laptops
+    1025px — 1200px: desktops, telas grandes
+    1201px e acima —  telas muito grandes, TVs
+*/
+
+
+
+@media screen and (min-width: 530px) and (max-width: 768px) {
+    #demostrar {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+
+    #container-demostrar {
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.294);
+        border-radius: 10px 10px 10px 10px ;
+        overflow: hidden;
+            
+    }
+
+    div#imagem {
+        width: 50%;
+        transition-duration: 3s;
+    }
+
+    div#imagem > img{
+        height: 100%;
+    }
+
+    div#imagemtext {
+        border-radius: 0;
+        width: 50%;
+    }
+
+    #usuarios {
+        flex-direction: row;
+    }
+
+
+    .pessoa {
+        flex-direction: column;
+        height: 350px;
+        width: 250px;
+        margin: 0px 15px;
+    }
+
+    .img {
+        height: 60%;
+        width: 100%;
+    }
+}
