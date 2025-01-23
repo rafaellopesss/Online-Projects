@@ -8,7 +8,7 @@
 
 
 
-@media screen and (min-width: 530px) and (max-width: 768px) {
+@media screen and (min-width: 530px) and (max-width: 1024px) {
     #demostrar {
         display: flex;
         justify-content: center;
@@ -36,9 +36,18 @@
     div#imagemtext {
         border-radius: 0;
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div#imagemtext > h1 {
+        font-size: 1.7em;
+        margin: 10px 0;
     }
 
     #usuarios {
+        justify-content: center;
         flex-direction: row;
     }
 
@@ -46,8 +55,8 @@
     .pessoa {
         flex-direction: column;
         height: 350px;
-        width: 250px;
         margin: 0px 15px;
+        max-width: 250px;
     }
 
     .img {
