@@ -1,6 +1,100 @@
 @charset "UTF-8";
 
+/*Cor 1: #F03635
+Cor 2: #F06242
+Cor 3: #F07F41
+
+*/
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --cor1: #F03635;
+    --cor2: #F06242;
+    --cor3: #F07F41;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+
+/*Placar*/
+
+#placar {
+    background-color: var(--cor2);
+    padding: 20px;
+
+}
+
+.pontos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    overflow: hidden;
+    background-color: #fff;
+    width: 200px;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+.pontos {
+    padding: 15px;
+    font-size: 3em;
+    font-weight: 700;
+          
+    
+}
+
+/*Resultado */
+#resultado {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
+/*Jogadores*/
+
+.jogadores {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+
+.jogador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 80px;
+
+
+    background-color: var(--cor3);
+    text-align: center;
+    width: 250px;
+    height: 220px;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.jogador > img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.jogador > p {
+    font-size: 1.4em;
+}
+
+.jogador > img, h1, p {
+    margin: 5px 0px;
+}
+
+.possibilidaes {
+    
 }
