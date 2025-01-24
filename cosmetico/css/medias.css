@@ -19,14 +19,14 @@
         display: flex;
         flex-direction: row;
         box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.294);
-        border-radius: 10px 10px 10px 10px ;
+        border-radius: 10px;
         overflow: hidden;
             
     }
 
     div#imagem {
         width: 50%;
-        transition-duration: 3s;
+        
     }
 
     div#imagem > img{
@@ -63,4 +63,77 @@
         height: 60%;
         width: 100%;
     }
+}
+
+@media screen and (min-width:1025px) {
+    #demostrar {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+
+    #container-demostrar {
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.294);
+        border-radius: 10px;
+        overflow: hidden;
+        max-width: 1000px;
+            
+    }
+
+    div#imagem {
+        width: 50%;
+        
+    }
+
+    div#imagem > img{
+        height: 100%;
+    }
+
+    div#imagemtext {
+        border-radius: 0;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div#imagemtext > h1 {
+        font-size: 2em;
+        margin: 10px 0;
+    }
+    
+
+    div#imagemtext > p {
+        font-size: 1.2em;
+    }
+
+
+    #descricao > div > h1 {
+        font-size: 2em;
+    }
+
+    #descricao > div > p {
+        font-size: 1.3em;
+    }
+
+    #usuarios {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+    .pessoa {
+        flex-direction: column;
+        height: 350px;
+        margin: 0px 15px;
+        max-width: 250px;
+    }
+
+    .img {
+        height: 60%;
+        width: 100%;
+    }
+
 }
