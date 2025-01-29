@@ -9,6 +9,7 @@ Cor 3: #F07F41
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 :root {
     --cor1: #F03635;
@@ -26,8 +27,12 @@ body {
 #placar {
     background-color: var(--cor2);
     padding: 20px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.18);
+
 
 }
+
+
 
 .pontos-container {
     display: flex;
@@ -39,6 +44,9 @@ body {
     width: 200px;
     margin: auto;
     border-radius: 5px;
+
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.333);
+
     
 }
 
@@ -47,7 +55,7 @@ body {
     font-size: 3em;
     font-weight: 700;
           
-    
+
 }
 
 /*Resultado */
@@ -60,9 +68,11 @@ body {
 /*Jogadores*/
 
 .jogadores {
+    margin-top: 30px;
     display: flex;
     justify-content: center;    
     align-items: center;
+    
 }
 
 
@@ -71,6 +81,8 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0px 80px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.159);
+
 
 
     background-color: var(--cor2);
@@ -84,6 +96,7 @@ body {
 
 .jogador > img {
     width: 150px;
+    height: 126px;
     border-radius: 10px;
 }
 
@@ -95,6 +108,80 @@ body {
     margin: 5px 0px;
 }
 
-.possibilidaes {
+#versus {
+    color: white;
+}
 
+/*Container Jogadas*/
+.possibilidades {
+    margin-top: 40px
+    
+}
+
+
+.possibilidades > h1 {
+    text-align: center;
+    color: white;
+}
+
+.container-jogadas {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+
+}
+
+.jogadas {
+    text-align: center;
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.333);
+    margin: 0px 40px;
+
+}
+
+.jogadas:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+.jogadas > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.jogadas > input {
+    scale: 1.3;
+}
+
+.botao {
+    text-align: center;
+    width: 100%;
+}
+
+.botao > input  {
+    margin: 10px auto;
+    font-size: 1.3em;
+    border-radius: 5px;
+    border: 1px solid white;
+
+    background-color: var(--cor2);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+input:hover {
+    transition: 1s;
+    background-color: white;
+    color: var(--cor1);
 }

@@ -21,23 +21,23 @@
                 </div>
             </div>
         </div>
-        <div id="resultado">
-            <h1 id="empate">Empate</h1>
-        </div>
+        
 
         <div class="jogadores">
             <div class="jogador">
                 <h1>Você</h1>
-                <img src="imagens/papel.png" alt="">
+                <img src="imagens/you.jfif" alt="">
                 <p>Jogada</p>
                 
             </div>
-            <div id="versus">
-                <h1>Vs</h1>
-            </div>
+                
+                <div id="versus">
+                    <h1>Vs</h1>
+                </div>
+            
             <div class="jogador">
-                <h1>Computador</h1>
-                <img src="imagens/tesoura.png" alt="">
+                <h1>Robô</h1>
+                <img src="imagens/robot.jfif" alt="">
                 <p>Jogada</p>
                 
             </div>
@@ -45,23 +45,42 @@
 
         <div class="possibilidades">
             <h1>Escolha sua jogada</h1>
-            <div class="jogadas" onclick="jogador()">
-                <img src="" alt="">
-                <p>Pedra</p>
-            </div>
-            <div class="jogadas" onclick="jogador()">
-                <img src="" alt="">
-                <p>Papel</p>
-            </div>
-            <div class="jogadas" onclick="jogador()">
-                <img src="" alt="">
-                <p>Tesoura</p>
-            </div>
-        </div>
+            <div class="container-jogadas">
+                <label for="pedraid">
+                    <div class="jogadas" onclick="jogador()">
+                        <img src="imagens/pedra.png" alt="Pedra">
+                        <h2>Pedra</h2>
+                        <input type="radio" name="jogada" id="pedraid" value="pedra">
+                    </div>
+                </label>
 
+                <label for="papelid">
+                    <div class="jogadas" onclick="jogador()">
+                        <img src="imagens/papel.png" alt="Papel">
+                        <h2>Papel</h2>
+                        <input type="radio" name="jogada" id="papelid" value="papel">
+                    </div>
+                </label>
+
+                <label for="tesouraid">
+                    <div class="jogadas" onclick="jogador()">
+                    
+                        <img src="imagens/tesoura.png" alt="Tesoura" >
+                    
+                        <h2>Tesoura</h2>
+                    
+                        <input type="radio" name="jogada" id="tesouraid" value="tesoura">
+                    
+                    </div>
+                </label>
+
+            </div>
+            <div class="botao"><input type="button" value="Jogar" onclick="jogar()"></div>
+        </div>
+        
          
     </main>
 
-    <script src="javascript.js" defer></script>
+    <script src="src/javascript.js" defer></script>
 </body>
 </html>
