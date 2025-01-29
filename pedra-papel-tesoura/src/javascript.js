@@ -1,12 +1,12 @@
 //Capturar a jogada do jogador
 //Criar uma lista com as possbilidades do computador
 // Comparar os dois itens acima
-
+let jogadascomputador = ['pedra', 'papel', 'tesoura']
 
 let jogada_computador =  () => {
-    let jogadascomputador = ['pedra', 'papel', 'tesoura']
-    let random = Math.floor(Math.random() * jogada_computador)
-    return jogadascomputador[random]
+    
+    let random = Math.floor(Math.random() * jogadascomputador.length)
+    console.log(jogadascomputador[random])
 }
 
 
@@ -25,5 +25,6 @@ let jogada_do_jogador = () => {
 
 
 let jogar = () => {
-    jogada_do_jogador()
+    //jogada_do_jogador()
+    jogada_computador()
 }
