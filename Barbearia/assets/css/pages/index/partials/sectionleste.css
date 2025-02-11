@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+section#unidadeleste{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.sobreunidade > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: var(--color1);
+    text-align: center;
+}
+
+section.sobreunidade > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+section.sobreunidade > input{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+section.sobreunidade > h1, p, input, section {
+    margin: 15px 0;
+}
+
+
+.imagensbarbearia {
+    object-fit: cover;
+    height: 250px;
+    padding: 5px;
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.allbuttons {
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8em;
+    background-color: var(--color2);
+}
+
+.allbuttons:hover {
+    
+    color: var(--color2);
+    background-color: white;
+    outline: 2px solid var(--color2);
+    outline-offset: -2px;
+    
+}
