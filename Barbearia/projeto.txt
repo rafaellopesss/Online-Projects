@@ -1,0 +1,31 @@
+Barbearia
+   Navegação na página 
+   Banner com: -- OK
+      Nome
+      Frase de efeito
+      Botão de agendamento
+
+   Fotos do Local -- OK
+      Nome da unidade
+      Pequeno texto
+      botão de agendamento
+      
+   Foto dos cortes: -- OK
+      Alguns de nossos trabalhos
+      carousel de imagens
+
+   Nossos profissionais -- OK
+      Foto do profissional 
+      Qualificação do profissional
+
+   Barbearia (Nome) -- OK 
+      história
+
+   Nossa localização
+      telefone
+      e zap embaixo
+
+   Mídias Sociais
+      Instagram
+      Facebook
+      Tiktok
