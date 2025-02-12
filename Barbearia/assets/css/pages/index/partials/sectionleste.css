@@ -39,5 +39,12 @@ section.sobreunidade > h1, p, input, section {
     object-fit: cover;
     height: 250px;
     padding: 5px;
-    width: 100%;
+    width: 90%;
+}
+
+.carousel {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
