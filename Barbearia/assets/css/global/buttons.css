@@ -5,6 +5,7 @@
     color: white;
     font-size: 0.8em;
     background-color: var(--color2);
+    cursor: pointer;
 }
 
 .allbuttons:hover {
