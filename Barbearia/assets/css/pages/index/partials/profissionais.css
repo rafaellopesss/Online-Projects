@@ -5,6 +5,7 @@ section#profissionais {
 
 section#profissionais > h1 {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
     color: var(--color3);
     text-align: center;
     margin: 15px 0;
@@ -43,7 +44,7 @@ section#profissionais > h1 {
 .barbeiros > main > p {
     line-height: 25px;
     max-width: 400px;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: justify;
     text-indent: 30px;
 }

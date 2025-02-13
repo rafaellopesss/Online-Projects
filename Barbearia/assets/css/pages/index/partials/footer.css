@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+footer {
+    background-color: var(--color2);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.midia {
+    display: flex;
+   
+    margin: 30px 0;
+}
+
+.midia > img, p {
+    line-height: 0;
+}

@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.localizacao > h1 {
+    font-size: 1.7em;
+}
+
 
 .localizacao > main > iframe {
     width: 300px;
@@ -15,5 +19,6 @@
 }
 
 .localizacao > h1, main, input {
+    
     margin-bottom: 15px;
 }

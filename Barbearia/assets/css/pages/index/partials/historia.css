@@ -9,11 +9,13 @@ section#historia {
 
 
 section#historia > h1 {
+    font-size: 1.7em;
     color: var(--color3);
     text-align: center;
 }
 
 section#historia > main > p {
+    font-size: 1.2em;
     text-indent: 30px;
     text-align: justify;
     line-height: 25px;
