@@ -2,6 +2,7 @@
 
 
 section#unidadeleste{
+    padding: 10px;
     margin-top: 35px;
     display: flex;
     flex-direction: column;
@@ -19,6 +20,7 @@ section.sobreunidade > h1{
 
 section.sobreunidade > p{
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
     font-size: 0.9em;
     text-indent: 20px;
     text-align: justify;
