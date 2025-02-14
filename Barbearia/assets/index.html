@@ -49,13 +49,15 @@
 
         
         <section id="fotosbarbearia">
-            <button id="before" title="Volta uma imagem"><</button>
+            <button id="before" title="Volta uma imagem" class="carouselbuttons">
+                <
+            </button>
             <main class="carousel">
                 <img src="images/pages/index/local1.webp" alt="Fotos da barbearia" class="imagensbarbearia">
                 <img src="images/pages/index/local2.webp" alt="Fotos da barbearia" class="imagensbarbearia hidden">
                 <img src="images/pages/index/local3.webp" alt="Fotos da barbearia" class="imagensbarbearia hidden">
             </main>
-            <button id="next" title="Avança uma imagem">></button>
+            <button id="next" title="Avança uma imagem" class="carouselbuttons">></button>
         </section>
         
         <hr>
@@ -66,12 +68,16 @@
 
     <section id="trabalhos">
         <h1>Alguns de nossos trabalhos</h1>
+        <button id="before" title="Volta uma imagem" class="carouselbuttons">
+            <
+        </button>
         <main>
             <img src="images/pages/index/jaca.webp" alt="Corte do Jaca">
-            <img src="images/pages/index/moicano.webp" alt="Corte Moicano">
-            <img src="images/pages/index/americano.webp" alt="Corte Americano">
-            <img src="images/pages/index/surfista.webp" alt="Corte Surfista">
+            <img src="images/pages/index/moicano.webp" alt="Corte Moicano" class='hidden'>
+            <img src="images/pages/index/americano.webp" alt="Corte Americano" class='hidden'>
+            <img src="images/pages/index/surfista.webp" alt="Corte Surfista" class='hidden'>
         </main>
+        <button id="next" title="Avança uma imagem" class="carouselbuttons">></button>
         <hr>
     </section>
     
@@ -147,5 +153,7 @@
         </div>
         
     </footer>
+
+    <script src="js/pages/index/javascript.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,35 @@
+let imagensBarbearia = document.getElementsByClassName('imagensbarbearia')
+let buttonBefore = document.getElementById('before')
+let buttonNext = document.getElementById('next')
+
+
+let contadorimagens = 0
+
+buttonBefore.addEventListener('click', () => { // Botão que volta a imagem
+    imagensBarbearia[contadorimagens].style.display = 'none' //Ele pega a imagem que está sendo mostrada e faz ela sumir
+    if (contadorimagens == 0){ // Se o contador for o primeiro item ele vai para o item 2 (que é o último) e permite fazer um loop infinito
+        contadorimagens = 2
+        imagensBarbearia[contadorimagens].style.display = 'block'
+        
+    }else { // Aí aqui ele diminui para que possa voltar a imagem anterior
+        contadorimagens --
+        imagensBarbearia[contadorimagens].style.display = 'block'
+    }
+    
+})
+
+buttonNext.addEventListener('click', () => { // Botão que passa a imagem
+    imagensBarbearia[contadorimagens].style.display = 'none' // Pega a imagem que está sendo mostrada e desaparece com ela
+    contadorimagens += 1 // Pego a próxima imagem do vetor
+    if (contadorimagens == imagensBarbearia.length) { // Se for maior que 2, significa que já atingiu o limite do array e precisa voltar para a primeira
+        contadorimagens = 0
+        imagensBarbearia[contadorimagens].style.display = 'block'
+    }else {
+        console.log(imagensBarbearia.length)
+        console.log(contadorimagens)
+
+        imagensBarbearia[contadorimagens].style.display = 'block'
+    }
+    
+    
+})

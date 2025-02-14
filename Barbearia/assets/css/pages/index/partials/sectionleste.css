@@ -42,23 +42,7 @@ section.sobreunidade > h1, p, input, section {
     
 }
 
-#fotosbarbearia > button {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    color: white;
-    background-color: var(--color3);
-    font-weight: bolder;
-    padding: 10px;
-    cursor: pointer;
-}
 
-#fotosbarbearia > button:hover {   
-    border: 1px solid black;
-    background-color: white;
-    color: var(--color3);
-    transition-duration: 1s;
-}
 
 .imagensbarbearia {
     object-fit: cover;
@@ -74,7 +58,4 @@ section.sobreunidade > h1, p, input, section {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-.hidden {
-    display: none;
 }
