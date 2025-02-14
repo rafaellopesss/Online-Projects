@@ -2,11 +2,11 @@
 
 #banner {
     width: 100%;
-    position: relative;
+    position:relative;
     
 }
 
-#banner > img{
+#banner  > img{
     
 
     filter: brightness(27%);

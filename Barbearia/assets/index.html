@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia | Zona leste de Teresina</title>
     <meta name="description" content="Barbearia Localizada na zona leste de Teresina(PI). A mais de 25 anos no ramo de cortes de cortes levando uma nova vida para nossos clientes.">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
-
-
     <link rel="stylesheet" href="css/pages/index/index.css">
     <style>
         hr {
@@ -23,9 +19,7 @@
 </head>
 <body>
     <nav>
-        <span class="material-symbols-outlined">
-            menu
-        </span>
+        <img src="images/pages/index/menu.webp" alt="menu">
         <ul>
             <li>Local</li>
             <li>Cortes</li>
@@ -54,12 +48,14 @@
         </section>
 
         
-        <section>
+        <section id="fotosbarbearia">
+            <button id="before" title="Volta uma imagem"><</button>
             <main class="carousel">
                 <img src="images/pages/index/local1.webp" alt="Fotos da barbearia" class="imagensbarbearia">
-                <img src="images/pages/index/local2.webp" alt="Fotos da barbearia" class="imagensbarbearia">
-                <img src="images/pages/index/local3.webp" alt="Fotos da barbearia" class="imagensbarbearia">
+                <img src="images/pages/index/local2.webp" alt="Fotos da barbearia" class="imagensbarbearia hidden">
+                <img src="images/pages/index/local3.webp" alt="Fotos da barbearia" class="imagensbarbearia hidden">
             </main>
+            <button id="next" title="Avança uma imagem">></button>
         </section>
         
         <hr>
