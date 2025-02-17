@@ -13,13 +13,14 @@ nav {
 
 }
 nav > img {
+    cursor: pointer;
     width: 50px;
     height: 50px;
     margin: 5px;
 }
 
 
-nav > ul {
+#showitens {
     color: white;
 
     padding: 10px;
@@ -37,9 +38,10 @@ nav > ul {
     top: 100%;
     right: 0;
 
-    display: none;
 
     z-index: 1;
+
+    display: none;
 }
 
 nav > ul > li {
@@ -55,7 +57,3 @@ nav > ul > li:hover {
     color: var(--color3);
 }
 
-nav > ul > li:active {
-    background-color: white;
-    color: var(--color3);
-}

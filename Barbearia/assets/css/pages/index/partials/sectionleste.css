@@ -3,11 +3,12 @@
 
 section#unidadeleste{
     padding: 10px;
-    margin-top: 35px;
+    margin: 35px auto 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 600px;
 }
 
 
@@ -33,7 +34,7 @@ section.sobreunidade > input{
 }
 
 section.sobreunidade > h1, p, input, section {
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 #fotosbarbearia {

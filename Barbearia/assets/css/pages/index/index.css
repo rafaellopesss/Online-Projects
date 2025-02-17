@@ -1,4 +1,5 @@
 @charset "UTF-8";
 
 @import '../../global/global.css';
-@import '../index/partials/partials.css'
+@import '../index/partials/partials.css';
+@import 'mediasqueries/medias.css';

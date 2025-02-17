@@ -6,7 +6,7 @@ let beforetrabalho = document.getElementById('beforetrabalho')
 let nexttrabalho = document.getElementById('nexttrabalho')
 let imagensCortes = document.getElementsByClassName('imagenscortes')
 
-
+ 
 let contadorimagens = 0
 
 buttonBefore.addEventListener('click', () => { // Botão que volta a imagem
@@ -62,3 +62,16 @@ nexttrabalho.addEventListener('click', () => {
         imagensCortes[contadorCortes].style.display = 'block'
     }
 })
+
+
+let showitens = document.getElementById('showitens')
+
+function menuHamburguer(){
+   
+    if (showitens.style.display == 'none'){
+        showitens.style.display = 'block'
+    }else {
+        showitens.style.display = 'none'
+    }
+  
+}
