@@ -13,16 +13,20 @@ section#trabalhos > h1 {
     color: var(--color1);
     margin-bottom: 15px;
 }
-section#trabalhos > main {
+#carouselcortes  {
    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     
     
 }
 
-section#trabalhos > main > img {
+#carouselcortes > button {
+    margin: 0 15px;
+}
+
+#carouselcortes> main > img {
     
     object-fit: cover;
     width: 250px;

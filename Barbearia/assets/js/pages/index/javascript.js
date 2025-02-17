@@ -2,6 +2,10 @@ let imagensBarbearia = document.getElementsByClassName('imagensbarbearia')
 let buttonBefore = document.getElementById('before')
 let buttonNext = document.getElementById('next')
 
+let beforetrabalho = document.getElementById('beforetrabalho')
+let nexttrabalho = document.getElementById('nexttrabalho')
+let imagensCortes = document.getElementsByClassName('imagenscortes')
+
 
 let contadorimagens = 0
 
@@ -32,4 +36,29 @@ buttonNext.addEventListener('click', () => { // Botão que passa a imagem
     }
     
     
+})
+
+let contadorCortes = 0
+
+beforetrabalho.addEventListener('click', () => {
+    imagensCortes[contadorCortes].style.display = 'none'
+    if (contadorCortes != 0){
+        contadorCortes --
+        imagensCortes[contadorCortes].style.display = 'block'
+    }else {
+        contadorCortes = imagensCortes.length - 1
+        imagensCortes[contadorCortes].style.display = 'block'
+    }
+})
+
+nexttrabalho.addEventListener('click', () => {
+    imagensCortes[contadorCortes].style.display = 'none'
+    
+    if (contadorCortes == imagensCortes.length - 1){
+        contadorCortes = 0
+        imagensCortes[contadorCortes].style.display = 'block'
+    }else {
+        contadorCortes ++
+        imagensCortes[contadorCortes].style.display = 'block'
+    }
 })
