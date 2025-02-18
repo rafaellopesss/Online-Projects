@@ -54,8 +54,11 @@ nav > ul > li {
     cursor: pointer;
     display: block;
     
+    
    
 }
+
+
 @keyframes mostrarVagorsamente{
     from {
         height: 0px;
@@ -66,9 +69,12 @@ nav > ul > li {
     }
 }
 
+nav > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
 
-
-nav > ul > li:hover {
+nav > ul > li:hover{
     background-color: white;
     color: var(--color3);
 }

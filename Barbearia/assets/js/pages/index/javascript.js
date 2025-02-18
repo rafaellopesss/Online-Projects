@@ -70,13 +70,14 @@ nexttrabalho.addEventListener('click', () => {
 
 function menuHamburguer(){
    
-    if (showitens.style.display == 'none'){
-        changemenuicon.src = 'images/pages/index/close.svg'
-        showitens.style.display = 'block'
-        
-    }else {
+    if (showitens.style.display === 'block'){
         changemenuicon.src = 'images/pages/index/menu.webp'
         showitens.style.display = 'none'
+        
+    }else {
+        
+        changemenuicon.src = 'images/pages/index/close.svg'
+        showitens.style.display = 'block'
     }
   
 }
