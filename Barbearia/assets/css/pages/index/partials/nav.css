@@ -7,8 +7,8 @@ nav {
 
     display: flex;
     justify-content: flex-end;
-    position: relative;
-
+    position: fixed;
+    z-index: 1;
     width: 100%;
 
 }
@@ -26,7 +26,7 @@ nav > img {
     padding: 10px;
 
     
-    
+    width: 50%;
     height: 400px;
     background-color: var(--color3);
 
@@ -42,15 +42,31 @@ nav > img {
     z-index: 1;
 
     display: none;
+    animation-name: mostrarVagorsamente;
+    animation-duration: 600ms;
 }
-
 nav > ul > li {
     
     border: 1px solid white;
     padding: 4px;
     margin-top: 5px;
-    font-size: 0.9em;
+    font-size: 1.3em;
+    cursor: pointer;
+    display: block;
+    
+   
 }
+@keyframes mostrarVagorsamente{
+    from {
+        height: 0px;
+        
+    }
+    To {
+        height: 400px;
+    }
+}
+
+
 
 nav > ul > li:hover {
     background-color: white;

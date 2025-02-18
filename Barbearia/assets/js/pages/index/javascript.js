@@ -5,7 +5,10 @@ let buttonNext = document.getElementById('next')
 let beforetrabalho = document.getElementById('beforetrabalho')
 let nexttrabalho = document.getElementById('nexttrabalho')
 let imagensCortes = document.getElementsByClassName('imagenscortes')
+let showitens = document.getElementById('showitens')
+let changemenuicon = document.getElementById('menuimage')
 
+let listamenu = document.getElementsByClassName('listamenu')
  
 let contadorimagens = 0
 
@@ -64,13 +67,15 @@ nexttrabalho.addEventListener('click', () => {
 })
 
 
-let showitens = document.getElementById('showitens')
 
 function menuHamburguer(){
    
     if (showitens.style.display == 'none'){
+        changemenuicon.src = 'images/pages/index/close.svg'
         showitens.style.display = 'block'
+        
     }else {
+        changemenuicon.src = 'images/pages/index/menu.webp'
         showitens.style.display = 'none'
     }
   
