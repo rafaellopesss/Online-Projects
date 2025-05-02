@@ -6,7 +6,6 @@ let apagartodasastarefas = document.getElementById('apagartodasastarefas')
 let popup = document.getElementById('popup')
 let botaoTarefas = document.getElementById('botaoTarefas')
 let fechar = document.getElementById('fechar')
-let tarefasconcluidas = document.getElementById('tarefasconcluidas')
 
 botaoAdicionar.addEventListener('click', () => {
     if (inpuTarefa.value != ''){
@@ -82,19 +81,22 @@ buttoncancelatarefas.addEventListener('click', () => {
 
 buttonapagatarefas.addEventListener('click', () => {
     let tarefas = document.getElementsByClassName('tarefas')
-    docu
+    
     for (let contador = 0; contador < document.getElementsByClassName('tarefas').length; contador ++){
+        
         sectionList.removeChild(tarefas[contador])
     }
     popup.style.display = 'none'
 })
 
 botaoTarefas.addEventListener('click', () => {
-    
+    let tarefasconcluidas = document.getElementById('tarefasconcluidas')
+
     tarefasconcluidas.style.display = 'block'
 })
 
 fechar.addEventListener('click', () => {
-    
+    let tarefasconcluidas = document.getElementById('tarefasconcluidas')
+
     tarefasconcluidas.style.display = 'none'
 })
