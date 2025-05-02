@@ -1,0 +1,102 @@
+
+#botoesControle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+#botaoconcluido, #apagartodasastarefas {
+    padding: 10px;
+    margin: 15px 5px 10px 5px;
+    border: var(--border);
+    border-radius: 5px;
+    
+    font-weight: bolder;
+}
+
+#botaoconcluido {
+    color: white;
+    background-color: var(--azulBotao);
+    
+}
+
+#botaoconcluido:hover {
+    background: white;
+    color: rgba(0, 0, 255, 0.666);
+    transition-duration: 1s;
+}
+#apagartodasastarefas {
+    color: black;
+    background-color: white;
+}
+
+
+#popup {
+    display: none;
+    position: absolute;
+   
+}
+
+
+
+#containerpopup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 240px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    animation: popup 800ms ease 0s 1 normal forwards;
+
+}
+
+@keyframes popup {
+    0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+#containerpopup > h1 {
+    font-size: 1.1em;
+    text-align: justify;
+}
+#containerpopup > p {
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+#botoespopup {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#botoespopup > button{
+    height: 24px;
+    width: 70px;
+    margin: 5px;
+    border-radius: 5px;
+    border: var(--border);
+    font-weight: 700;
+    
+}
+#cancelatarefas {
+    background-color: white;
+}
+#apagatarefas {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.666);
+}

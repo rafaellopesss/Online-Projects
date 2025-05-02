@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="css/global/global.css">
+    <link rel="stylesheet" href="css/partials/global.css">
+</head>
+<body>
+    <main id="container">
+        <header id="name">
+            <h1>To-Do List</h1>
+        </header>
+        <section id="adicionartarefa">
+            <input type="text" name="" id="inputarefa" autocomplete="off" placeholder="Ex: Roupas para lavar" title="Local para digitar a tarefa" >
+            <button id="adicionar" title="Botão que adiciona tarefas">Adicionar</button>
+        </section>
+
+        <main id="containerlist">
+            <section id="list">
+                <h2>To-Do List</h2>
+                
+                
+            </section>
+            <section id="botoesControle">
+                <button title="Se a tarefa for concluída clique aqui" id="botaoconcluido">Concluída</button>
+                <section id="popup">
+                    <section id="containerpopup">
+                        <h1>Apagar todas as tarefas?</h1>
+                        <p>você tem certeza que quer apagar todas as tarefas?</p>
+                        <section id="botoespopup">
+                            <button id="cancelatarefas" title="Cancela o apagamento de todas as tarefas">Cancelar</button>
+                            <button id="apagatarefas" title="Confirma o apagamento de todas as tarefas">Apagar</button>
+                        
+                        </section>
+                    </section>
+                </section>
+                <button title="Apaga todas as tarefas " id="apagartodasastarefas">Apagar todas</button>
+            </section>
+        </main>
+
+        <button id="botaoTarefas">Mostrar tarefas concluidas</button>
+        <main id="concluidas">
+            <section id="tarefasconcluidas">
+                <h1>Tarefas concluídas</h1>
+                <ul id="tarefasacabadas">
+                    
+                </ul>
+                <button id="fechar">Fechar</button>
+            </section>
+        </main>
+        
+    </main>
+
+    <script src="javascript/index.js" defer></script>
+</body>
+</html>
