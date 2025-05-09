@@ -1,0 +1,31 @@
+
+
+
+.botaoadote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--orange);
+    color: white;
+    text-decoration: none;
+    font-family: var(--outfitFont);
+
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    width: 120px;
+    height: 35px;
+    
+
+
+    text-align: center;
+    
+}
+
+.botaoadote:hover {
+    background-color: white;
+    border-color: var(--orange);
+    color: orange;
+    transition: .7s;
+}

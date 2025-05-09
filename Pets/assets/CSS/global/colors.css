@@ -1,0 +1,11 @@
+:root {
+    --blue: #004aad;
+    --orange: #ff6200;
+}
+
+.azul {
+    color: var(--blue);
+}
+.laranja {
+    color: var(--orange);
+}

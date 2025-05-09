@@ -1,0 +1,27 @@
+#filtro {
+    margin: 20px auto 20px auto ;
+    display: flex;
+    justify-content: center;
+}
+
+#filtro > section  >select {
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#filtro > section {
+    display: flex;
+}
+
+#botaofiltrar {
+    width: 80px;
+    padding: 5px;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+

@@ -1,0 +1,46 @@
+section#adotadores {
+    padding: 10px;
+}
+
+section#adotadores > h1 {
+    font-family: var(--outfitFont);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cardadotadores {
+    background-color: var(--blue);
+    margin: 0px auto 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.607);
+    max-width: 400px;
+    border: 1px solid var(--orange);
+}
+
+.cardadotadores > img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    margin:0px auto 10px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.482);
+    
+    
+} 
+
+.cardadotadores > main > h1 {
+    font-family: var(--outfitFont);
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: var(--orange);
+   
+}
+.cardadotadores > main >p {
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 10px;
+}

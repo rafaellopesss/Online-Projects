@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@import '../../global/global.css';
+@import 'partials/nav.css';
+@import 'partials/banner.css';
+@import 'partials/sectionquemsomos.css';
+@import 'partials/sectionajuda.css';
+@import 'partials/comoadotar.css';
+@import 'partials/pessoasqueadotaram.css';
+@import 'partials/footer.css';
+@import 'mediasqueries/medias.css';

@@ -1,0 +1,43 @@
+section#ajuda {
+    padding: 10px;
+}
+
+section#ajuda > h1 {
+    font-family: var(--outfitFont);
+    margin-bottom: 10px;
+}
+
+
+
+section#ajuda > p {
+    margin-bottom: 5px;
+}
+
+section#ajuda > main > ul > li {
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+section#ajuda > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+    width: 100px;
+    padding: 5px;
+    color: white;
+    text-transform: capitalize;
+    
+    text-decoration: none;
+    font-family: var(--outfitFont);
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--blue);
+}
+
+section#ajuda > a:hover {
+    background-color: white;
+    color: var(--blue);
+    border-color: var(--blue);
+    transition-duration: 1s;
+}

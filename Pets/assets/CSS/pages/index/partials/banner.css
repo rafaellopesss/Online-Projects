@@ -1,0 +1,67 @@
+@import 'Outfit-Regular.ttf';
+#banner {
+    background-color: rgba(0, 0, 0, 0.327);
+    background-image: url(../../../../Imagens/pages/index/bannerdog.webp);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    
+    
+    
+    height: 400px;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.3);
+
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.feitos {
+    color: white;
+    max-width: 400px;
+    
+    
+}
+
+
+.feitos > h1 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    font-family: var(--outfitFont);
+    font-weight: 600;
+
+}
+
+.feitos > a {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    background-color: var(--orange);
+    color: white;
+ 
+    border-radius: 5px;
+    
+    
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+
+    
+    font-family: var(--outfitFont);
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+
+.feitos > a:hover {
+    background-color: white;
+    color: var(--orange);
+    border-color: var(--orange);
+    transition: 1s;
+}

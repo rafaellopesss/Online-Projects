@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+main {
+    margin: 10px auto 0 auto;
+    
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 430px;
+}
+
+#formadepagamento {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pagamento {
+    margin: 2px;
+}
+
+#valor {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#doar {
+    margin-top: 5px;
+    width: 173px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

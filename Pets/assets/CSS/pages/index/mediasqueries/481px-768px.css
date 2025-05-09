@@ -1,0 +1,10 @@
+@media screen and (min-width:481px) and (max-width:768px) {
+    #todososcards {
+        grid-template-columns: auto auto;
+    }
+    #todososadotadores {
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 10px;
+    }
+}
